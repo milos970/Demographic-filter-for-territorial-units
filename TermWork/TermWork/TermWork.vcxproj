@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{e4d0605b-3ba3-4846-9bdd-5b87f99d9314}</ProjectGuid>
+    <RootNamespace>TermWork</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>LevelFour</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\structures\structure.cpp" />
+    <ClCompile Include="..\..\structures\utils.cpp" />
+    <ClCompile Include="..\..\structures\vector\vector.cpp" />
+    <ClCompile Include="criterion_name.cpp" />
+    <ClCompile Include="criterion_belonging.cpp" />
+    <ClCompile Include="criterion_type.cpp" />
+    <ClCompile Include="filtering.cpp" />
+    <ClCompile Include="functionality.cpp" />
+    <ClCompile Include="criterion_superior.cpp" />
+    <ClCompile Include="criterion_age_group_number.cpp" />
+    <ClCompile Include="criterion_age_number.cpp" />
+    <ClCompile Include="criterion_age_fraction.cpp" />
+    <ClCompile Include="criterion_education_number.cpp" />
+    <ClCompile Include="criterion_education_fraction.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="data.cpp" />
+    <ClCompile Include="criterion_age_group_fraction.cpp" />
+    <ClCompile Include="searching.cpp" />
+    <ClCompile Include="selection_economic_age_group.cpp" />
+    <ClCompile Include="selection_min_economic_age_group.cpp" />
+    <ClCompile Include="selection_max_economic_age_group.cpp" />
+    <ClCompile Include="sort_by_age_fraction.cpp" />
+    <ClCompile Include="sort_by_age_group_number.cpp" />
+    <ClCompile Include="sort_by_education_fraction.cpp" />
+    <ClCompile Include="sort_by_education_number.cpp" />
+    <ClCompile Include="sort_by_name.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\structures\array\array.h" />
+    <ClInclude Include="..\..\structures\data_item.h" />
+    <ClInclude Include="..\..\structures\list\array_list.h" />
+    <ClInclude Include="..\..\structures\list\list.h" />
+    <ClInclude Include="..\..\structures\structure.h" />
+    <ClInclude Include="..\..\structures\structure_iterator.h" />
+    <ClInclude Include="..\..\structures\table\sequence_table.h" />
+    <ClInclude Include="..\..\structures\table\sorted_sequence_table.h" />
+    <ClInclude Include="..\..\structures\table\table.h" />
+    <ClInclude Include="..\..\structures\table\unsorted_sequence_table.h" />
+    <ClInclude Include="..\..\structures\types.h" />
+    <ClInclude Include="..\..\structures\utils.h" />
+    <ClInclude Include="..\..\structures\vector\vector.h" />
+    <ClInclude Include="composite_filter.h" />
+    <ClInclude Include="economic_age_group.h" />
+    <ClInclude Include="filtering.h" />
+    <ClInclude Include="filter_age_group_fraction.h" />
+    <ClInclude Include="filter_and.h" />
+    <ClInclude Include="filter_criterion.h" />
+    <ClInclude Include="country.h" />
+    <ClInclude Include="criterion_name.h" />
+    <ClInclude Include="criterion_belonging.h" />
+    <ClInclude Include="criterion_territorial_unit.h" />
+    <ClInclude Include="criterion_type.h" />
+    <ClInclude Include="education.h" />
+    <ClInclude Include="filter_education_fraction.h" />
+    <ClInclude Include="filter_interval.h" />
+    <ClInclude Include="filter_age_group_number.h" />
+    <ClInclude Include="filter_age_fraction.h" />
+    <ClInclude Include="filter_education_number.h" />
+    <ClInclude Include="filter_age_number.h" />
+    <ClInclude Include="filter.h" />
+    <ClInclude Include="functionality.h" />
+    <ClInclude Include="gender.h" />
+    <ClInclude Include="region.h" />
+    <ClInclude Include="criterion.h" />
+    <ClInclude Include="criterion_superior.h" />
+    <ClInclude Include="criterion_age_group_number.h" />
+    <ClInclude Include="criterion_age_number.h" />
+    <ClInclude Include="criterion_age_fraction.h" />
+    <ClInclude Include="criterion_education_number.h" />
+    <ClInclude Include="criterion_education_fraction.h" />
+    <ClInclude Include="data.h" />
+    <ClInclude Include="municipality.h" />
+    <ClInclude Include="district.h" />
+    <ClInclude Include="searching.h" />
+    <ClInclude Include="selection_criterion.h" />
+    <ClInclude Include="selection_criterion_max.h" />
+    <ClInclude Include="selection_criterion_min.h" />
+    <ClInclude Include="selection_economic_age_group.h" />
+    <ClInclude Include="selection_max_age_group.h" />
+    <ClInclude Include="selection_min_age_group.h" />
+    <ClInclude Include="selection_min_economic_age_group.h" />
+    <ClInclude Include="selection_max_economic_age_group.h" />
+    <ClInclude Include="shuffle.h" />
+    <ClInclude Include="sort.h" />
+    <ClInclude Include="sorting.h" />
+    <ClInclude Include="sort_by_age_fraction.h" />
+    <ClInclude Include="sort_by_age_group_number.h" />
+    <ClInclude Include="sort_by_education_fraction.h" />
+    <ClInclude Include="sort_by_education_number.h" />
+    <ClInclude Include="sort_by_name.h" />
+    <ClInclude Include="territorial_unit_type.h" />
+    <ClInclude Include="territorial_unit.h" />
+    <ClInclude Include="criterion_age_group_fraction.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

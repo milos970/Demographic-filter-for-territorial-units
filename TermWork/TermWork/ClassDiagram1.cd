@@ -1,0 +1,473 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CriterionTerritorialUnit&lt;ResultType&gt;" Collapsed="true">
+    <Position X="11" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>criterion_territorial_unit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Criterion&lt;ObjectType, ResultType&gt;" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>criterion.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CriterionAgeNumber" Collapsed="true">
+    <Position X="5.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAIgAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>criterion_age_number.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CriterionSuperior" Collapsed="true">
+    <Position X="10" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>criterion_superior.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CriterionAgeFraction" Collapsed="true">
+    <Position X="12.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAgAAAAAAAAAAAEAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>criterion_age_fraction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CriterionAgeGroupNumber" Collapsed="true">
+    <Position X="14.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACAAAAAIAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>criterion_age_group_number.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CriterionAgeGroupFraction" Collapsed="true">
+    <Position X="16.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABQoAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>criterion_age_group_fraction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CriterionEducationNumber" Collapsed="true">
+    <Position X="19" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAIQAAAAAAAAA=</HashCode>
+      <FileName>criterion_education_number.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CriterionEducationFraction" Collapsed="true">
+    <Position X="21.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAABAAAAAAAIAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>criterion_education_fraction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CriterionName" Collapsed="true">
+    <Position X="1" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>criterion_name.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CriterionType" Collapsed="true">
+    <Position X="3.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>criterion_type.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CriterionBelonging" Collapsed="true">
+    <Position X="7.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAIAAAIIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>criterion_belonging.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CompositeFilter&lt;ObjectType&gt;" Collapsed="true">
+    <Position X="0.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAIAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>composite_filter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Filter_AND&lt;ObjectType&gt;" Collapsed="true">
+    <Position X="0.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>filter_and.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilterCriterion&lt;ObjectType, ValueType&gt;" Collapsed="true">
+    <Position X="8.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAABAEAAAAAAAAACAAAAAABAgAAAAAAAA=</HashCode>
+      <FileName>filter_criterion.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilterInterval&lt;ObjectType, ValueType&gt;" Collapsed="true">
+    <Position X="8.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAACIAAAAAAAAACAAAAAAAAAAAAA=</HashCode>
+      <FileName>filter_interval.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Filter&lt;ObjectType&gt;" Collapsed="true">
+    <Position X="7.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>filter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilterAgeGroupNumber" Collapsed="true">
+    <Position X="14" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>filter_age_group_number.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilterAgeGroupFraction" Collapsed="true">
+    <Position X="2.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>filter_age_group_fraction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilterAgeNumber" Collapsed="true">
+    <Position X="5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>filter_age_number.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilterAgeFraction" Collapsed="true">
+    <Position X="7.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>filter_age_fraction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilterEducationNumber" Collapsed="true">
+    <Position X="9.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>filter_education_number.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FilterEducationFraction" Collapsed="true">
+    <Position X="11.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>filter_education_fraction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Region" Collapsed="true">
+    <Position X="13.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAABAgAAIAAAAAAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>region.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Municipality" Collapsed="true">
+    <Position X="15.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAgAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>municipality.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="District" Collapsed="true">
+    <Position X="18" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAIAAgAAAAAAAAAAAAAAAAAAgAACAAA=</HashCode>
+      <FileName>district.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TerritorialUnit" Collapsed="true">
+    <Position X="14.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ALAAAAIAQAAAAAAAggAAAAAAEAAACAAAABAEEABAIhI=</HashCode>
+      <FileName>territorial_unit.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Country" Collapsed="true">
+    <Position X="11.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAIAAAAAAAAgQAIAAAABIAgAgAAAACAACAAAA=</HashCode>
+      <FileName>country.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Data" Collapsed="true">
+    <Position X="23.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAACAAAAAAAAAAACBAAAABCAAAAAAA=</HashCode>
+      <FileName>data.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Functionality">
+    <Position X="21.75" Y="6" Width="3" />
+    <TypeIdentifier>
+      <HashCode>BkABBAAAECBAAAAAAAIAAAAAJAAgAQAAAQBAACJAICA=</HashCode>
+      <FileName>functionality.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sorting" Collapsed="true">
+    <Position X="7.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAAAAAAAAAAAQAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>sorting.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SortingByName" Collapsed="true">
+    <Position X="4" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BEAABAAAAAAAAAAAAAAAAgBAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>sort_by_name.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SortingByEducationNumber" Collapsed="true">
+    <Position X="5.25" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BEAABAAQAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>sort_by_education_number.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SortingByEducationFraction" Collapsed="true">
+    <Position X="7.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BEAABAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAgAAAAA=</HashCode>
+      <FileName>sort_by_education_fraction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SortingByAgeGroupNumber" Collapsed="true">
+    <Position X="9.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BEAABAAAAAAAAAAAAAAAAAAACAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>sort_by_age_group_number.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SortingByAgeFration" Collapsed="true">
+    <Position X="8" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BEAABAAACAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>sort_by_age_fraction.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SelectionCriterion&lt;KeyType, ObjectType, ValueType&gt;" Collapsed="true">
+    <Position X="10.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAgAQgAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>selection_criterion.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SelectionCriterionMax&lt;KeyType, ObjectType, ValueType&gt;" Collapsed="true">
+    <Position X="9" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>selection_criterion_max.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SelectionCriterionMin&lt;KeyType, ObjectType, ValueType&gt;" Collapsed="true">
+    <Position X="11.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>selection_criterion_min.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SelectionMaxAgeGroup&lt;K&gt;" Collapsed="true">
+    <Position X="9" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>selection_max_age_group.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SelectionMinAgeGroup&lt;K&gt;" Collapsed="true">
+    <Position X="11.25" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>selection_min_age_group.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SelectionEconomicAgeGroup">
+    <Position X="15.5" Y="11.75" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AEAABAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>selection_economic_age_group.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SelectionMinEconomicAgeGroup">
+    <Position X="14.25" Y="13.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAEAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>selection_min_economic_age_group.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SelectionMaxEconomicAgeGroup">
+    <Position X="17.25" Y="13.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAEAA=</HashCode>
+      <FileName>selection_max_economic_age_group.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Searching">
+    <Position X="21.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BEAABABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>searching.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Filtering">
+    <Position X="0.5" Y="11.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>BEAABAAAAAGwAAAAAARAAAAAAAgAAAAIAAAgAAIAAAA=</HashCode>
+      <FileName>filtering.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="structures::Array&lt;T&gt;" Collapsed="true">
+    <Position X="6" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACECAAAAIAAAAhAAAEAAAJAgAAAAIAAAAA=</HashCode>
+      <FileName>C:\Users\ADMIN\Desktop\AUSTW\structures\array\array.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="structures::DataItem&lt;T&gt;" Collapsed="true">
+    <Position X="12.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAABAAAAAAAAAAAAAAAAAAIAAAAAAAAAE=</HashCode>
+      <FileName>C:\Users\ADMIN\Desktop\AUSTW\structures\data_item.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="structures::ArrayList&lt;T&gt;" Collapsed="true">
+    <Position X="1.75" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAgAADEAAAACYgAAABAQAAAAAEAggAAAAECAAA=</HashCode>
+      <FileName>C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="structures::List&lt;T&gt;" Collapsed="true">
+    <Position X="1.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAABAAAAACAAAAAAAQAEAAAAAgAAAAAECAAA=</HashCode>
+      <FileName>C:\Users\ADMIN\Desktop\AUSTW\structures\list\list.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="structures::Structure" Collapsed="true">
+    <Position X="4.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAASEAAAAAIAAAQAAAAAAAAAAAAAgAAAAQAA=</HashCode>
+      <FileName>C:\Users\ADMIN\Desktop\AUSTW\structures\structure.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="structures::StructureIterator&lt;T&gt;" Collapsed="true">
+    <Position X="23.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAQAAIAQAAAAgAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>C:\Users\ADMIN\Desktop\AUSTW\structures\structure_iterator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="structures::Iterator&lt;T&gt;" Collapsed="true">
+    <Position X="25.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAQAAAAQAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>C:\Users\ADMIN\Desktop\AUSTW\structures\structure_iterator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="structures::Iterable&lt;T&gt;" Collapsed="true">
+    <Position X="0.75" Y="16.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACAAAAAAAAAQAAAAAQAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\ADMIN\Desktop\AUSTW\structures\structure_iterator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="structures::SequenceTable&lt;K, T&gt;" Collapsed="true">
+    <Position X="5.75" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAQAAIBAAAAEAYABAAACAAAAAAEACAAEAFAAAAA=</HashCode>
+      <FileName>C:\Users\ADMIN\Desktop\AUSTW\structures\table\sequence_table.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="structures::SortedSequenceTable&lt;K, T&gt;" Collapsed="true">
+    <Position X="4.75" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIDEAAAAAAAAAAAAAAAAACQAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="structures::TableItem&lt;K, T&gt;" Collapsed="true">
+    <Position X="12.75" Y="16.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABIAAAAAAACAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\ADMIN\Desktop\AUSTW\structures\table\table.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="structures::Table&lt;K, T&gt;" Collapsed="true">
+    <Position X="4.75" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAQAAABAAAAEAAAAAAACAAgAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\ADMIN\Desktop\AUSTW\structures\table\table.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="structures::UnsortedSequenceTable&lt;K, T&gt;" Collapsed="true">
+    <Position X="7" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACEAAAAAgAAAAAAAAAAAAAAAQAAAIAAAAA=</HashCode>
+      <FileName>C:\Users\ADMIN\Desktop\AUSTW\structures\table\unsorted_sequence_table.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="structures::Utils" Collapsed="true">
+    <Position X="25.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\ADMIN\Desktop\AUSTW\structures\utils.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="structures::Vector" Collapsed="true">
+    <Position X="3.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAACEAAQAAIAIAABAAAEAAAIAgEAAAAAAAAA=</HashCode>
+      <FileName>C:\Users\ADMIN\Desktop\AUSTW\structures\vector\vector.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="structures::Shuffle&lt;K, T&gt;" Collapsed="true">
+    <Position X="4" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>shuffle.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="structures::Sort&lt;K, T, R&gt;" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEAAAAAAAEAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>sort.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="EconomicAgeGroup" Collapsed="true">
+    <Position X="23.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAQAAIAAAAAAA=</HashCode>
+      <FileName>economic_age_group.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Education" Collapsed="true">
+    <Position X="25.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAgAgAAAAAAAAACAAAAAAAAAAAAQIAAAAAAAAIgAA=</HashCode>
+      <FileName>education.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Gender" Collapsed="true">
+    <Position X="23.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>gender.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="TerritorialUnitType" Collapsed="true">
+    <Position X="25.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAgAAABAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>territorial_unit_type.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

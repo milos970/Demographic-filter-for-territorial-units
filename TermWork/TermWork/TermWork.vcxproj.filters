@@ -1,0 +1,391 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="criterions">
+      <UniqueIdentifier>{52621366-8d09-4471-879a-ca097b0ffbd3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="criterions\criterion_age_number">
+      <UniqueIdentifier>{aa7e8a1a-17d8-48cd-94d9-917ee20ba48f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="criterions\criterion_superior">
+      <UniqueIdentifier>{3dc1bbba-788c-421c-a70a-c69178881479}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filters">
+      <UniqueIdentifier>{80a291d5-e624-4228-93de-62eb112ecba8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="criterions\criterion_age_fraction">
+      <UniqueIdentifier>{172e986b-8852-4de4-a084-b84c9fdd26e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="criterions\criterion_age_group_number">
+      <UniqueIdentifier>{f7d4765e-82e0-4eb8-a904-7f1da055a88f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="criterions\criterion_age_group_fraction">
+      <UniqueIdentifier>{371cf8e7-bc83-490c-9e51-27e05eeda744}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="criterions\criterion_education_number">
+      <UniqueIdentifier>{912bb7ec-19ac-4b9b-9c5b-7b5b4603c411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="criterions\criterion_education_fraction">
+      <UniqueIdentifier>{120a46cf-d922-4b51-86f3-3b6b0d378bbb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filters\filter_age_group_number">
+      <UniqueIdentifier>{65e5ae6f-f0ae-41f3-ba59-38bb238b11cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filters\filter_age_group_fraction">
+      <UniqueIdentifier>{19d10a9a-e893-47c0-99a8-bb22503382a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filters\filter_age_number">
+      <UniqueIdentifier>{2e7be6d1-2682-4404-a038-3e6dae392d86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filters\filter_age_fraction">
+      <UniqueIdentifier>{3b790dc7-848b-44e3-a2fe-829136df06b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filters\filter_education_number">
+      <UniqueIdentifier>{ecdaaf33-a690-4545-aeaf-afa695457314}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="filters\filter_education_fraction">
+      <UniqueIdentifier>{7d989264-9ada-43aa-a35b-55f8717f565d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="criterions\criterion_name">
+      <UniqueIdentifier>{6bc06b88-a5d8-4eed-bbdf-8f18fa88780b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="criterions\criterion_type">
+      <UniqueIdentifier>{ea40375d-589a-4e6d-9ff8-ea680f65e2e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="criterions\criterion_belonging">
+      <UniqueIdentifier>{df7f9406-5a98-43ae-85d2-24ef6e4e8ccc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="territorial_units">
+      <UniqueIdentifier>{3abc9cae-5c5a-47ae-bb03-0ceb1e0df3bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="territorial_units\country">
+      <UniqueIdentifier>{9e74dc13-1f8f-4c42-a537-9f599c9bc834}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{8c839a2d-48f6-45fd-afad-03cb92e3d151}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="functionalities">
+      <UniqueIdentifier>{61b87686-cb7c-41f8-aa50-9da95a8145da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="functionalities\sorting">
+      <UniqueIdentifier>{6b299df4-a3a8-4365-bdd3-0c868cd6f9bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="functionalities\selection">
+      <UniqueIdentifier>{44ce6127-413c-4d62-a278-c4a1ecb8cb38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="functionalities\searching">
+      <UniqueIdentifier>{43f6bcd8-5bbd-4fda-bc09-068008654e25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="functionalities\filtering">
+      <UniqueIdentifier>{cf22dc5c-a060-488f-a7a4-7d5417d89768}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="functionalities\selection\selection_economic_age_group">
+      <UniqueIdentifier>{854922c5-55d6-4cc6-bd6d-20e704df044d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="functionalities\selection\selection_min_economic_age_group">
+      <UniqueIdentifier>{5c1900c8-ebb0-47d1-91bf-c05ebdac97cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="functionalities\selection\selection_max_economic_age_group">
+      <UniqueIdentifier>{f56ef5d0-d279-464d-8f58-f88aa26b1976}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="functionalities\sorting\sorting_by_name">
+      <UniqueIdentifier>{62208c64-28e9-49fa-88b2-40792628b252}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="functionalities\sorting\sorting_by_education_number">
+      <UniqueIdentifier>{c811109a-bcd7-4498-bfed-ac516e7f7de4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="functionalities\sorting\sorting_by_education_fraction">
+      <UniqueIdentifier>{43773d08-94be-445f-ad46-cd2a6ceb92fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="functionalities\sorting\sorting_by_age_group_number">
+      <UniqueIdentifier>{29e4b86e-2aba-4e88-b92c-e3d2f73bfacf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="functionalities\sorting\sorting_by_age_fraction">
+      <UniqueIdentifier>{a9e5432a-6f8f-4f1c-8b00-8658deb5fb0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="enums">
+      <UniqueIdentifier>{72c30a36-2890-4649-b42b-7985650ad3ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="structures">
+      <UniqueIdentifier>{922727da-c2d8-4514-ba41-ebf7a1b96d3d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="criterion_superior.cpp">
+      <Filter>criterions\criterion_superior</Filter>
+    </ClCompile>
+    <ClCompile Include="criterion_age_number.cpp">
+      <Filter>criterions\criterion_age_number</Filter>
+    </ClCompile>
+    <ClCompile Include="criterion_age_fraction.cpp">
+      <Filter>criterions\criterion_age_fraction</Filter>
+    </ClCompile>
+    <ClCompile Include="criterion_age_group_number.cpp">
+      <Filter>criterions\criterion_age_group_number</Filter>
+    </ClCompile>
+    <ClCompile Include="criterion_age_group_fraction.cpp">
+      <Filter>criterions\criterion_age_group_fraction</Filter>
+    </ClCompile>
+    <ClCompile Include="criterion_education_number.cpp">
+      <Filter>criterions\criterion_education_number</Filter>
+    </ClCompile>
+    <ClCompile Include="criterion_education_fraction.cpp">
+      <Filter>criterions\criterion_education_fraction</Filter>
+    </ClCompile>
+    <ClCompile Include="data.cpp">
+      <Filter>data</Filter>
+    </ClCompile>
+    <ClCompile Include="criterion_type.cpp">
+      <Filter>criterions\criterion_type</Filter>
+    </ClCompile>
+    <ClCompile Include="criterion_belonging.cpp">
+      <Filter>criterions\criterion_belonging</Filter>
+    </ClCompile>
+    <ClCompile Include="criterion_name.cpp">
+      <Filter>criterions\criterion_name</Filter>
+    </ClCompile>
+    <ClCompile Include="searching.cpp">
+      <Filter>functionalities\searching</Filter>
+    </ClCompile>
+    <ClCompile Include="sort_by_name.cpp">
+      <Filter>functionalities\sorting\sorting_by_name</Filter>
+    </ClCompile>
+    <ClCompile Include="sort_by_education_number.cpp">
+      <Filter>functionalities\sorting\sorting_by_education_number</Filter>
+    </ClCompile>
+    <ClCompile Include="sort_by_education_fraction.cpp">
+      <Filter>functionalities\sorting\sorting_by_education_fraction</Filter>
+    </ClCompile>
+    <ClCompile Include="sort_by_age_fraction.cpp">
+      <Filter>functionalities\sorting\sorting_by_age_fraction</Filter>
+    </ClCompile>
+    <ClCompile Include="sort_by_age_group_number.cpp">
+      <Filter>functionalities\sorting\sorting_by_age_group_number</Filter>
+    </ClCompile>
+    <ClCompile Include="selection_min_economic_age_group.cpp">
+      <Filter>functionalities\selection\selection_min_economic_age_group</Filter>
+    </ClCompile>
+    <ClCompile Include="selection_max_economic_age_group.cpp">
+      <Filter>functionalities\selection\selection_max_economic_age_group</Filter>
+    </ClCompile>
+    <ClCompile Include="filtering.cpp">
+      <Filter>functionalities\filtering</Filter>
+    </ClCompile>
+    <ClCompile Include="selection_economic_age_group.cpp">
+      <Filter>functionalities\selection\selection_economic_age_group</Filter>
+    </ClCompile>
+    <ClCompile Include="functionality.cpp">
+      <Filter>functionalities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\structures\structure.cpp">
+      <Filter>structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\structures\utils.cpp">
+      <Filter>structures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\structures\vector\vector.cpp">
+      <Filter>structures</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="criterion.h">
+      <Filter>criterions</Filter>
+    </ClInclude>
+    <ClInclude Include="territorial_unit.h">
+      <Filter>territorial_units</Filter>
+    </ClInclude>
+    <ClInclude Include="criterion_superior.h">
+      <Filter>criterions\criterion_superior</Filter>
+    </ClInclude>
+    <ClInclude Include="criterion_age_fraction.h">
+      <Filter>criterions\criterion_age_fraction</Filter>
+    </ClInclude>
+    <ClInclude Include="criterion_age_group_number.h">
+      <Filter>criterions\criterion_age_group_number</Filter>
+    </ClInclude>
+    <ClInclude Include="criterion_age_group_fraction.h">
+      <Filter>criterions\criterion_age_group_fraction</Filter>
+    </ClInclude>
+    <ClInclude Include="criterion_age_number.h">
+      <Filter>criterions\criterion_age_number</Filter>
+    </ClInclude>
+    <ClInclude Include="criterion_education_number.h">
+      <Filter>criterions\criterion_education_number</Filter>
+    </ClInclude>
+    <ClInclude Include="filter.h">
+      <Filter>filters</Filter>
+    </ClInclude>
+    <ClInclude Include="filter_interval.h">
+      <Filter>filters</Filter>
+    </ClInclude>
+    <ClInclude Include="criterion_education_fraction.h">
+      <Filter>criterions\criterion_education_fraction</Filter>
+    </ClInclude>
+    <ClInclude Include="filter_education_number.h">
+      <Filter>filters\filter_education_number</Filter>
+    </ClInclude>
+    <ClInclude Include="country.h">
+      <Filter>territorial_units\country</Filter>
+    </ClInclude>
+    <ClInclude Include="filter_age_number.h">
+      <Filter>filters\filter_age_number</Filter>
+    </ClInclude>
+    <ClInclude Include="filter_age_fraction.h">
+      <Filter>filters\filter_age_fraction</Filter>
+    </ClInclude>
+    <ClInclude Include="filter_age_group_number.h">
+      <Filter>filters\filter_age_group_number</Filter>
+    </ClInclude>
+    <ClInclude Include="district.h">
+      <Filter>territorial_units</Filter>
+    </ClInclude>
+    <ClInclude Include="region.h">
+      <Filter>territorial_units</Filter>
+    </ClInclude>
+    <ClInclude Include="municipality.h">
+      <Filter>territorial_units</Filter>
+    </ClInclude>
+    <ClInclude Include="criterion_territorial_unit.h">
+      <Filter>criterions</Filter>
+    </ClInclude>
+    <ClInclude Include="data.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="criterion_type.h">
+      <Filter>criterions\criterion_type</Filter>
+    </ClInclude>
+    <ClInclude Include="criterion_belonging.h">
+      <Filter>criterions\criterion_belonging</Filter>
+    </ClInclude>
+    <ClInclude Include="criterion_name.h">
+      <Filter>criterions\criterion_name</Filter>
+    </ClInclude>
+    <ClInclude Include="filter_criterion.h">
+      <Filter>filters</Filter>
+    </ClInclude>
+    <ClInclude Include="filter_education_fraction.h">
+      <Filter>filters\filter_education_fraction</Filter>
+    </ClInclude>
+    <ClInclude Include="filter_age_group_fraction.h">
+      <Filter>filters\filter_age_group_fraction</Filter>
+    </ClInclude>
+    <ClInclude Include="composite_filter.h">
+      <Filter>filters</Filter>
+    </ClInclude>
+    <ClInclude Include="filter_and.h">
+      <Filter>filters</Filter>
+    </ClInclude>
+    <ClInclude Include="searching.h">
+      <Filter>functionalities\searching</Filter>
+    </ClInclude>
+    <ClInclude Include="sort_by_name.h">
+      <Filter>functionalities\sorting\sorting_by_name</Filter>
+    </ClInclude>
+    <ClInclude Include="sort_by_education_number.h">
+      <Filter>functionalities\sorting\sorting_by_education_number</Filter>
+    </ClInclude>
+    <ClInclude Include="sort_by_education_fraction.h">
+      <Filter>functionalities\sorting\sorting_by_education_fraction</Filter>
+    </ClInclude>
+    <ClInclude Include="sort_by_age_fraction.h">
+      <Filter>functionalities\sorting\sorting_by_age_fraction</Filter>
+    </ClInclude>
+    <ClInclude Include="sort_by_age_group_number.h">
+      <Filter>functionalities\sorting\sorting_by_age_group_number</Filter>
+    </ClInclude>
+    <ClInclude Include="selection_min_economic_age_group.h">
+      <Filter>functionalities\selection\selection_min_economic_age_group</Filter>
+    </ClInclude>
+    <ClInclude Include="selection_max_economic_age_group.h">
+      <Filter>functionalities\selection\selection_max_economic_age_group</Filter>
+    </ClInclude>
+    <ClInclude Include="filtering.h">
+      <Filter>functionalities\filtering</Filter>
+    </ClInclude>
+    <ClInclude Include="selection_criterion.h">
+      <Filter>functionalities\selection</Filter>
+    </ClInclude>
+    <ClInclude Include="selection_criterion_max.h">
+      <Filter>functionalities\selection</Filter>
+    </ClInclude>
+    <ClInclude Include="selection_criterion_min.h">
+      <Filter>functionalities\selection</Filter>
+    </ClInclude>
+    <ClInclude Include="selection_economic_age_group.h">
+      <Filter>functionalities\selection\selection_economic_age_group</Filter>
+    </ClInclude>
+    <ClInclude Include="selection_min_age_group.h">
+      <Filter>functionalities\selection</Filter>
+    </ClInclude>
+    <ClInclude Include="selection_max_age_group.h">
+      <Filter>functionalities\selection</Filter>
+    </ClInclude>
+    <ClInclude Include="sorting.h">
+      <Filter>functionalities\sorting</Filter>
+    </ClInclude>
+    <ClInclude Include="territorial_unit_type.h">
+      <Filter>enums</Filter>
+    </ClInclude>
+    <ClInclude Include="gender.h">
+      <Filter>enums</Filter>
+    </ClInclude>
+    <ClInclude Include="economic_age_group.h">
+      <Filter>enums</Filter>
+    </ClInclude>
+    <ClInclude Include="education.h">
+      <Filter>enums</Filter>
+    </ClInclude>
+    <ClInclude Include="functionality.h">
+      <Filter>functionalities</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\structures\array\array.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\structures\list\array_list.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\structures\data_item.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\structures\list\list.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\structures\table\sequence_table.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="shuffle.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="sort.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\structures\table\sorted_sequence_table.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\structures\structure.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\structures\structure_iterator.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\structures\table\table.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\structures\types.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\structures\table\unsorted_sequence_table.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\structures\utils.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\structures\vector\vector.h">
+      <Filter>structures</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+</Project>

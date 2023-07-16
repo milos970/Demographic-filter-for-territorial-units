@@ -1,0 +1,998 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Enterprise\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(514,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (TermWork.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  structure.cpp
+  utils.cpp
+  vector.cpp
+  criterion_name.cpp
+  criterion_belonging.cpp
+  criterion_type.cpp
+  filtering.cpp
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(84,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(82): message : while compiling class template member function 'void structures::SortedSequenceTable<std::string,Municipality *>::insert(const K &,const T &)'
+          with
+          [
+              K=std::string,
+              T=Municipality *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\district.h(19): message : see reference to class template instantiation 'structures::SortedSequenceTable<std::string,Municipality *>' being compiled
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(101,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(98): message : while compiling class template member function 'structures::TableItem<K,T> *structures::SortedSequenceTable<K,T>::findTableItem(const K &)'
+          with
+          [
+              K=std::string,
+              T=Municipality *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(212,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(206): message : while compiling class template member function 'void structures::ArrayList<unsigned int>::add(const T &)'
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\filtering.cpp(77): message : see reference to function template instantiation 'void structures::ArrayList<unsigned int>::add(const T &)' being compiled
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\filtering.h(29): message : see reference to class template instantiation 'structures::ArrayList<unsigned int>' being compiled
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(229,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(218): message : while compiling class template member function 'void structures::ArrayList<unsigned int>::insert(const T &,int)'
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(254,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(251): message : while compiling class template member function 'T structures::ArrayList<T>::removeAt(int)'
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(242): message : see reference to function template instantiation 'T structures::ArrayList<T>::removeAt(int)' being compiled
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(290,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(289): message : while compiling class template member function 'structures::Iterator<T> *structures::ArrayList<T>::getEndIterator(void)'
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(112,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(108): message : while compiling class template member function 'int structures::SortedSequenceTable<std::string,Municipality *>::indexOfKey(K,int,int,bool &)'
+          with
+          [
+              K=std::string
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(84): message : see reference to function template instantiation 'int structures::SortedSequenceTable<std::string,Municipality *>::indexOfKey(K,int,int,bool &)' being compiled
+          with
+          [
+              K=std::string
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(70): message : while compiling class template member function 'structures::Structure &structures::SortedSequenceTable<std::string,Municipality *>::assign(structures::Structure &)'
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(297,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(295): message : while compiling class template member function 'void structures::ArrayList<unsigned int>::enlarge(void)'
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(208): message : see reference to function template instantiation 'void structures::ArrayList<unsigned int>::enlarge(void)' being compiled
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(136): message : while compiling class template member function 'structures::ArrayList<unsigned int>::ArrayList(void)'
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\filtering.h(29): message : see reference to function template instantiation 'structures::ArrayList<unsigned int>::ArrayList(void)' being compiled
+  functionality.cpp
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(84,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(82): message : while compiling class template member function 'void structures::SortedSequenceTable<std::string,Municipality *>::insert(const K &,const T &)'
+          with
+          [
+              K=std::string,
+              T=Municipality *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\district.h(19): message : see reference to class template instantiation 'structures::SortedSequenceTable<std::string,Municipality *>' being compiled
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(101,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(98): message : while compiling class template member function 'structures::TableItem<K,T> *structures::SortedSequenceTable<K,T>::findTableItem(const K &)'
+          with
+          [
+              K=std::string,
+              T=Municipality *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(112,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(108): message : while compiling class template member function 'int structures::SortedSequenceTable<std::string,Municipality *>::indexOfKey(K,int,int,bool &)'
+          with
+          [
+              K=std::string
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(84): message : see reference to function template instantiation 'int structures::SortedSequenceTable<std::string,Municipality *>::indexOfKey(K,int,int,bool &)' being compiled
+          with
+          [
+              K=std::string
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(70): message : while compiling class template member function 'structures::Structure &structures::SortedSequenceTable<std::string,Municipality *>::assign(structures::Structure &)'
+  criterion_superior.cpp
+  criterion_age_group_number.cpp
+  criterion_age_number.cpp
+  criterion_age_fraction.cpp
+  criterion_education_number.cpp
+  criterion_education_fraction.cpp
+  main.cpp
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(84,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(82): message : while compiling class template member function 'void structures::SortedSequenceTable<std::string,Municipality *>::insert(const K &,const T &)'
+          with
+          [
+              K=std::string,
+              T=Municipality *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\district.h(19): message : see reference to class template instantiation 'structures::SortedSequenceTable<std::string,Municipality *>' being compiled
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(101,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(98): message : while compiling class template member function 'structures::TableItem<K,T> *structures::SortedSequenceTable<K,T>::findTableItem(const K &)'
+          with
+          [
+              K=std::string,
+              T=Municipality *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(212,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(206): message : while compiling class template member function 'void structures::ArrayList<unsigned int>::add(const T &)'
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\filtering.h(29): message : see reference to class template instantiation 'structures::ArrayList<unsigned int>' being compiled
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(229,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(218): message : while compiling class template member function 'void structures::ArrayList<unsigned int>::insert(const T &,int)'
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(254,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(251): message : while compiling class template member function 'T structures::ArrayList<T>::removeAt(int)'
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(242): message : see reference to function template instantiation 'T structures::ArrayList<T>::removeAt(int)' being compiled
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(290,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(289): message : while compiling class template member function 'structures::Iterator<T> *structures::ArrayList<T>::getEndIterator(void)'
+          with
+          [
+              T=unsigned int
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(112,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(108): message : while compiling class template member function 'int structures::SortedSequenceTable<std::string,Municipality *>::indexOfKey(K,int,int,bool &)'
+          with
+          [
+              K=std::string
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(84): message : see reference to function template instantiation 'int structures::SortedSequenceTable<std::string,Municipality *>::indexOfKey(K,int,int,bool &)' being compiled
+          with
+          [
+              K=std::string
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(70): message : while compiling class template member function 'structures::Structure &structures::SortedSequenceTable<std::string,Municipality *>::assign(structures::Structure &)'
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(297,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(295): message : while compiling class template member function 'void structures::ArrayList<unsigned int>::enlarge(void)'
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(208): message : see reference to function template instantiation 'void structures::ArrayList<unsigned int>::enlarge(void)' being compiled
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(136): message : while compiling class template member function 'structures::ArrayList<unsigned int>::ArrayList(void)'
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\filtering.h(29): message : see reference to function template instantiation 'structures::ArrayList<unsigned int>::ArrayList(void)' being compiled
+  data.cpp
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\data.cpp(60,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\data.cpp(81,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\data.cpp(103,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\data.cpp(259,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\data.cpp(400,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\data.cpp(508,40): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(84,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(82): message : while compiling class template member function 'void structures::SortedSequenceTable<std::string,Municipality *>::insert(const K &,const T &)'
+          with
+          [
+              K=std::string,
+              T=Municipality *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\data.cpp(353): message : see reference to function template instantiation 'void structures::SortedSequenceTable<std::string,Municipality *>::insert(const K &,const T &)' being compiled
+          with
+          [
+              K=std::string,
+              T=Municipality *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\district.h(19): message : see reference to class template instantiation 'structures::SortedSequenceTable<std::string,Municipality *>' being compiled
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(101,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(98): message : while compiling class template member function 'structures::TableItem<K,T> *structures::SortedSequenceTable<K,T>::findTableItem(const K &)'
+          with
+          [
+              K=std::string,
+              T=Municipality *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(112,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(108): message : while compiling class template member function 'int structures::SortedSequenceTable<std::string,Municipality *>::indexOfKey(K,int,int,bool &)'
+          with
+          [
+              K=std::string
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(84): message : see reference to function template instantiation 'int structures::SortedSequenceTable<std::string,Municipality *>::indexOfKey(K,int,int,bool &)' being compiled
+          with
+          [
+              K=std::string
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(56): message : while compiling class template member function 'structures::SortedSequenceTable<std::string,Municipality *>::SortedSequenceTable(void)'
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\data.cpp(292): message : see reference to function template instantiation 'structures::SortedSequenceTable<std::string,Municipality *>::SortedSequenceTable(void)' being compiled
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(212,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(206): message : while compiling class template member function 'void structures::ArrayList<structures::TableItem<K,T> *>::add(structures::TableItem<K,T> *const &)'
+          with
+          [
+              K=std::string,
+              T=Municipality *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(57): message : see reference to class template instantiation 'structures::ArrayList<structures::TableItem<K,T> *>' being compiled
+          with
+          [
+              K=std::string,
+              T=Municipality *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(229,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(218): message : while compiling class template member function 'void structures::ArrayList<structures::TableItem<K,T> *>::insert(structures::TableItem<K,T> *const &,int)'
+          with
+          [
+              K=std::string,
+              T=Municipality *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(254,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(251): message : while compiling class template member function 'T structures::ArrayList<T>::removeAt(int)'
+          with
+          [
+              T=structures::TableItem<std::string,Municipality *> *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(242): message : see reference to function template instantiation 'T structures::ArrayList<T>::removeAt(int)' being compiled
+          with
+          [
+              T=structures::TableItem<std::string,Municipality *> *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(290,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(289): message : while compiling class template member function 'structures::Iterator<T> *structures::ArrayList<T>::getEndIterator(void)'
+          with
+          [
+              T=structures::TableItem<std::string,Municipality *> *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(297,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(295): message : while compiling class template member function 'void structures::ArrayList<structures::TableItem<K,T> *>::enlarge(void)'
+          with
+          [
+              K=std::string,
+              T=Municipality *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(208): message : see reference to function template instantiation 'void structures::ArrayList<structures::TableItem<K,T> *>::enlarge(void)' being compiled
+          with
+          [
+              K=std::string,
+              T=Municipality *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(136): message : while compiling class template member function 'structures::ArrayList<structures::TableItem<K,T> *>::ArrayList(void)'
+          with
+          [
+              K=std::string,
+              T=Municipality *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(57): message : see reference to function template instantiation 'structures::ArrayList<structures::TableItem<K,T> *>::ArrayList(void)' being compiled
+          with
+          [
+              K=std::string,
+              T=Municipality *
+          ]
+  criterion_age_group_fraction.cpp
+  searching.cpp
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(84,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(82): message : while compiling class template member function 'void structures::SortedSequenceTable<std::string,Municipality *>::insert(const K &,const T &)'
+          with
+          [
+              K=std::string,
+              T=Municipality *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\district.h(19): message : see reference to class template instantiation 'structures::SortedSequenceTable<std::string,Municipality *>' being compiled
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(101,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(98): message : while compiling class template member function 'structures::TableItem<K,T> *structures::SortedSequenceTable<K,T>::findTableItem(const K &)'
+          with
+          [
+              K=std::string,
+              T=Municipality *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(112,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(108): message : while compiling class template member function 'int structures::SortedSequenceTable<std::string,Municipality *>::indexOfKey(K,int,int,bool &)'
+          with
+          [
+              K=std::string
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(84): message : see reference to function template instantiation 'int structures::SortedSequenceTable<std::string,Municipality *>::indexOfKey(K,int,int,bool &)' being compiled
+          with
+          [
+              K=std::string
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(70): message : while compiling class template member function 'structures::Structure &structures::SortedSequenceTable<std::string,Municipality *>::assign(structures::Structure &)'
+  selection_economic_age_group.cpp
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(84,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(82): message : while compiling class template member function 'void structures::SortedSequenceTable<std::string,Municipality *>::insert(const K &,const T &)'
+          with
+          [
+              K=std::string,
+              T=Municipality *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\district.h(19): message : see reference to class template instantiation 'structures::SortedSequenceTable<std::string,Municipality *>' being compiled
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(101,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(98): message : while compiling class template member function 'structures::TableItem<K,T> *structures::SortedSequenceTable<K,T>::findTableItem(const K &)'
+          with
+          [
+              K=std::string,
+              T=Municipality *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(112,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(108): message : while compiling class template member function 'int structures::SortedSequenceTable<std::string,Municipality *>::indexOfKey(K,int,int,bool &)'
+          with
+          [
+              K=std::string
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(84): message : see reference to function template instantiation 'int structures::SortedSequenceTable<std::string,Municipality *>::indexOfKey(K,int,int,bool &)' being compiled
+          with
+          [
+              K=std::string
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(70): message : while compiling class template member function 'structures::Structure &structures::SortedSequenceTable<std::string,Municipality *>::assign(structures::Structure &)'
+  selection_min_economic_age_group.cpp
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(84,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(82): message : while compiling class template member function 'void structures::SortedSequenceTable<std::string,Municipality *>::insert(const K &,const T &)'
+          with
+          [
+              K=std::string,
+              T=Municipality *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\district.h(19): message : see reference to class template instantiation 'structures::SortedSequenceTable<std::string,Municipality *>' being compiled
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(101,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(98): message : while compiling class template member function 'structures::TableItem<K,T> *structures::SortedSequenceTable<K,T>::findTableItem(const K &)'
+          with
+          [
+              K=std::string,
+              T=Municipality *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(112,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(108): message : while compiling class template member function 'int structures::SortedSequenceTable<std::string,Municipality *>::indexOfKey(K,int,int,bool &)'
+          with
+          [
+              K=std::string
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(84): message : see reference to function template instantiation 'int structures::SortedSequenceTable<std::string,Municipality *>::indexOfKey(K,int,int,bool &)' being compiled
+          with
+          [
+              K=std::string
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(70): message : while compiling class template member function 'structures::Structure &structures::SortedSequenceTable<std::string,Municipality *>::assign(structures::Structure &)'
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(212,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(206): message : while compiling class template member function 'void structures::ArrayList<structures::TableItem<K,T> *>::add(structures::TableItem<K,T> *const &)'
+          with
+          [
+              K=std::string,
+              T=TerritorialUnit *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\unsorted_sequence_table.h(48): message : see reference to class template instantiation 'structures::ArrayList<structures::TableItem<K,T> *>' being compiled
+          with
+          [
+              K=std::string,
+              T=TerritorialUnit *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\unsorted_sequence_table.h(47): message : while compiling class template member function 'structures::UnsortedSequenceTable<std::string,TerritorialUnit *>::UnsortedSequenceTable(void)'
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\selection_min_economic_age_group.h(11): message : see reference to function template instantiation 'structures::UnsortedSequenceTable<std::string,TerritorialUnit *>::UnsortedSequenceTable(void)' being compiled
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\selection_min_economic_age_group.h(11): message : see reference to class template instantiation 'structures::UnsortedSequenceTable<std::string,TerritorialUnit *>' being compiled
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(229,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(218): message : while compiling class template member function 'void structures::ArrayList<structures::TableItem<K,T> *>::insert(structures::TableItem<K,T> *const &,int)'
+          with
+          [
+              K=std::string,
+              T=TerritorialUnit *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(254,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(251): message : while compiling class template member function 'T structures::ArrayList<T>::removeAt(int)'
+          with
+          [
+              T=structures::TableItem<std::string,TerritorialUnit *> *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(242): message : see reference to function template instantiation 'T structures::ArrayList<T>::removeAt(int)' being compiled
+          with
+          [
+              T=structures::TableItem<std::string,TerritorialUnit *> *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(290,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(289): message : while compiling class template member function 'structures::Iterator<T> *structures::ArrayList<T>::getEndIterator(void)'
+          with
+          [
+              T=structures::TableItem<std::string,TerritorialUnit *> *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(297,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(295): message : while compiling class template member function 'void structures::ArrayList<structures::TableItem<K,T> *>::enlarge(void)'
+          with
+          [
+              K=std::string,
+              T=TerritorialUnit *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(208): message : see reference to function template instantiation 'void structures::ArrayList<structures::TableItem<K,T> *>::enlarge(void)' being compiled
+          with
+          [
+              K=std::string,
+              T=TerritorialUnit *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(136): message : while compiling class template member function 'structures::ArrayList<structures::TableItem<K,T> *>::ArrayList(void)'
+          with
+          [
+              K=std::string,
+              T=TerritorialUnit *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\unsorted_sequence_table.h(48): message : see reference to function template instantiation 'structures::ArrayList<structures::TableItem<K,T> *>::ArrayList(void)' being compiled
+          with
+          [
+              K=std::string,
+              T=TerritorialUnit *
+          ]
+  Generating Code...
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\economic_age_group.h(23): warning C4715: 'intToEconomicAgeGroup': not all control paths return a value
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\economic_age_group.h(23): warning C4715: 'intToEconomicAgeGroup': not all control paths return a value
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\territorial_unit_type.h(27): warning C4715: 'territorialUnitTypeToString': not all control paths return a value
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\territorial_unit_type.h(27): warning C4715: 'territorialUnitTypeToString': not all control paths return a value
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\territorial_unit_type.h(27): warning C4715: 'territorialUnitTypeToString': not all control paths return a value
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\gender.h(20): warning C4715: 'intToGender': not all control paths return a value
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\economic_age_group.h(23): warning C4715: 'intToEconomicAgeGroup': not all control paths return a value
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\education.h(40): warning C4715: 'intToEducation': not all control paths return a value
+  Compiling...
+  selection_max_economic_age_group.cpp
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(84,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(82): message : while compiling class template member function 'void structures::SortedSequenceTable<std::string,Municipality *>::insert(const K &,const T &)'
+          with
+          [
+              K=std::string,
+              T=Municipality *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\district.h(19): message : see reference to class template instantiation 'structures::SortedSequenceTable<std::string,Municipality *>' being compiled
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(101,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(98): message : while compiling class template member function 'structures::TableItem<K,T> *structures::SortedSequenceTable<K,T>::findTableItem(const K &)'
+          with
+          [
+              K=std::string,
+              T=Municipality *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(112,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(108): message : while compiling class template member function 'int structures::SortedSequenceTable<std::string,Municipality *>::indexOfKey(K,int,int,bool &)'
+          with
+          [
+              K=std::string
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(84): message : see reference to function template instantiation 'int structures::SortedSequenceTable<std::string,Municipality *>::indexOfKey(K,int,int,bool &)' being compiled
+          with
+          [
+              K=std::string
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(70): message : while compiling class template member function 'structures::Structure &structures::SortedSequenceTable<std::string,Municipality *>::assign(structures::Structure &)'
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(212,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(206): message : while compiling class template member function 'void structures::ArrayList<structures::TableItem<K,T> *>::add(structures::TableItem<K,T> *const &)'
+          with
+          [
+              K=std::string,
+              T=TerritorialUnit *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\unsorted_sequence_table.h(48): message : see reference to class template instantiation 'structures::ArrayList<structures::TableItem<K,T> *>' being compiled
+          with
+          [
+              K=std::string,
+              T=TerritorialUnit *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\unsorted_sequence_table.h(47): message : while compiling class template member function 'structures::UnsortedSequenceTable<std::string,TerritorialUnit *>::UnsortedSequenceTable(void)'
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\selection_max_economic_age_group.h(11): message : see reference to function template instantiation 'structures::UnsortedSequenceTable<std::string,TerritorialUnit *>::UnsortedSequenceTable(void)' being compiled
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\selection_max_economic_age_group.h(11): message : see reference to class template instantiation 'structures::UnsortedSequenceTable<std::string,TerritorialUnit *>' being compiled
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(229,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(218): message : while compiling class template member function 'void structures::ArrayList<structures::TableItem<K,T> *>::insert(structures::TableItem<K,T> *const &,int)'
+          with
+          [
+              K=std::string,
+              T=TerritorialUnit *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(254,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(251): message : while compiling class template member function 'T structures::ArrayList<T>::removeAt(int)'
+          with
+          [
+              T=structures::TableItem<std::string,TerritorialUnit *> *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(242): message : see reference to function template instantiation 'T structures::ArrayList<T>::removeAt(int)' being compiled
+          with
+          [
+              T=structures::TableItem<std::string,TerritorialUnit *> *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(290,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(289): message : while compiling class template member function 'structures::Iterator<T> *structures::ArrayList<T>::getEndIterator(void)'
+          with
+          [
+              T=structures::TableItem<std::string,TerritorialUnit *> *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(297,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(295): message : while compiling class template member function 'void structures::ArrayList<structures::TableItem<K,T> *>::enlarge(void)'
+          with
+          [
+              K=std::string,
+              T=TerritorialUnit *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(208): message : see reference to function template instantiation 'void structures::ArrayList<structures::TableItem<K,T> *>::enlarge(void)' being compiled
+          with
+          [
+              K=std::string,
+              T=TerritorialUnit *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(136): message : while compiling class template member function 'structures::ArrayList<structures::TableItem<K,T> *>::ArrayList(void)'
+          with
+          [
+              K=std::string,
+              T=TerritorialUnit *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\unsorted_sequence_table.h(48): message : see reference to function template instantiation 'structures::ArrayList<structures::TableItem<K,T> *>::ArrayList(void)' being compiled
+          with
+          [
+              K=std::string,
+              T=TerritorialUnit *
+          ]
+  sort_by_age_fraction.cpp
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(84,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(82): message : while compiling class template member function 'void structures::SortedSequenceTable<std::string,Municipality *>::insert(const K &,const T &)'
+          with
+          [
+              K=std::string,
+              T=Municipality *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\district.h(19): message : see reference to class template instantiation 'structures::SortedSequenceTable<std::string,Municipality *>' being compiled
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(101,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(98): message : while compiling class template member function 'structures::TableItem<K,T> *structures::SortedSequenceTable<K,T>::findTableItem(const K &)'
+          with
+          [
+              K=std::string,
+              T=Municipality *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(212,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(206): message : while compiling class template member function 'void structures::ArrayList<Filter<ObjectType> *>::add(const T &)'
+          with
+          [
+              ObjectType=TerritorialUnit *,
+              T=Filter<TerritorialUnit *> *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\composite_filter.h(10): message : see reference to class template instantiation 'structures::ArrayList<Filter<ObjectType> *>' being compiled
+          with
+          [
+              ObjectType=TerritorialUnit *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(229,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(218): message : while compiling class template member function 'void structures::ArrayList<Filter<ObjectType> *>::insert(const T &,int)'
+          with
+          [
+              ObjectType=TerritorialUnit *,
+              T=Filter<TerritorialUnit *> *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(254,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(251): message : while compiling class template member function 'T structures::ArrayList<T>::removeAt(int)'
+          with
+          [
+              T=Filter<TerritorialUnit *> *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(242): message : see reference to function template instantiation 'T structures::ArrayList<T>::removeAt(int)' being compiled
+          with
+          [
+              T=Filter<TerritorialUnit *> *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(290,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(289): message : while compiling class template member function 'structures::Iterator<T> *structures::ArrayList<T>::getEndIterator(void)'
+          with
+          [
+              T=Filter<TerritorialUnit *> *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\quick_sort.h(35,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\quick_sort.h(34): message : while compiling class template member function 'void structures::QuickSort<std::string,TerritorialUnit *,double>::sort(structures::UnsortedSequenceTable<std::string,TerritorialUnit *> &,CriterionTerritorialUnit<double> *,unsigned int)'
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\sort_by_age_fraction.cpp(56): message : see reference to function template instantiation 'void structures::QuickSort<std::string,TerritorialUnit *,double>::sort(structures::UnsortedSequenceTable<std::string,TerritorialUnit *> &,CriterionTerritorialUnit<double> *,unsigned int)' being compiled
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\sort_by_age_fraction.cpp(55): message : see reference to class template instantiation 'structures::QuickSort<std::string,TerritorialUnit *,double>' being compiled
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\quick_sort.h(29,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\quick_sort.h(28): message : while compiling class template member function 'void structures::QuickSort<std::string,TerritorialUnit *,double>::sort(structures::UnsortedSequenceTable<std::string,TerritorialUnit *> &)'
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(112,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(108): message : while compiling class template member function 'int structures::SortedSequenceTable<std::string,Municipality *>::indexOfKey(K,int,int,bool &)'
+          with
+          [
+              K=std::string
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(84): message : see reference to function template instantiation 'int structures::SortedSequenceTable<std::string,Municipality *>::indexOfKey(K,int,int,bool &)' being compiled
+          with
+          [
+              K=std::string
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(70): message : while compiling class template member function 'structures::Structure &structures::SortedSequenceTable<std::string,Municipality *>::assign(structures::Structure &)'
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(297,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(295): message : while compiling class template member function 'void structures::ArrayList<Filter<ObjectType> *>::enlarge(void)'
+          with
+          [
+              ObjectType=TerritorialUnit *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(208): message : see reference to function template instantiation 'void structures::ArrayList<Filter<ObjectType> *>::enlarge(void)' being compiled
+          with
+          [
+              ObjectType=TerritorialUnit *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(136): message : while compiling class template member function 'structures::ArrayList<Filter<ObjectType> *>::ArrayList(void)'
+          with
+          [
+              ObjectType=TerritorialUnit *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\composite_filter.h(10): message : see reference to function template instantiation 'structures::ArrayList<Filter<ObjectType> *>::ArrayList(void)' being compiled
+          with
+          [
+              ObjectType=TerritorialUnit *
+          ]
+  sort_by_age_group_number.cpp
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(84,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(82): message : while compiling class template member function 'void structures::SortedSequenceTable<std::string,Municipality *>::insert(const K &,const T &)'
+          with
+          [
+              K=std::string,
+              T=Municipality *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\district.h(19): message : see reference to class template instantiation 'structures::SortedSequenceTable<std::string,Municipality *>' being compiled
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(101,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(98): message : while compiling class template member function 'structures::TableItem<K,T> *structures::SortedSequenceTable<K,T>::findTableItem(const K &)'
+          with
+          [
+              K=std::string,
+              T=Municipality *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(212,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(206): message : while compiling class template member function 'void structures::ArrayList<Filter<ObjectType> *>::add(const T &)'
+          with
+          [
+              ObjectType=TerritorialUnit *,
+              T=Filter<TerritorialUnit *> *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\composite_filter.h(10): message : see reference to class template instantiation 'structures::ArrayList<Filter<ObjectType> *>' being compiled
+          with
+          [
+              ObjectType=TerritorialUnit *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(229,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(218): message : while compiling class template member function 'void structures::ArrayList<Filter<ObjectType> *>::insert(const T &,int)'
+          with
+          [
+              ObjectType=TerritorialUnit *,
+              T=Filter<TerritorialUnit *> *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(254,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(251): message : while compiling class template member function 'T structures::ArrayList<T>::removeAt(int)'
+          with
+          [
+              T=Filter<TerritorialUnit *> *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(242): message : see reference to function template instantiation 'T structures::ArrayList<T>::removeAt(int)' being compiled
+          with
+          [
+              T=Filter<TerritorialUnit *> *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(290,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(289): message : while compiling class template member function 'structures::Iterator<T> *structures::ArrayList<T>::getEndIterator(void)'
+          with
+          [
+              T=Filter<TerritorialUnit *> *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\quick_sort.h(35,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\quick_sort.h(34): message : while compiling class template member function 'void structures::QuickSort<std::string,TerritorialUnit *,unsigned int>::sort(structures::UnsortedSequenceTable<std::string,TerritorialUnit *> &,CriterionTerritorialUnit<unsigned int> *,unsigned int)'
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\sort_by_age_group_number.cpp(51): message : see reference to function template instantiation 'void structures::QuickSort<std::string,TerritorialUnit *,unsigned int>::sort(structures::UnsortedSequenceTable<std::string,TerritorialUnit *> &,CriterionTerritorialUnit<unsigned int> *,unsigned int)' being compiled
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\sort_by_age_group_number.cpp(50): message : see reference to class template instantiation 'structures::QuickSort<std::string,TerritorialUnit *,unsigned int>' being compiled
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\quick_sort.h(29,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\quick_sort.h(28): message : while compiling class template member function 'void structures::QuickSort<std::string,TerritorialUnit *,unsigned int>::sort(structures::UnsortedSequenceTable<std::string,TerritorialUnit *> &)'
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(112,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(108): message : while compiling class template member function 'int structures::SortedSequenceTable<std::string,Municipality *>::indexOfKey(K,int,int,bool &)'
+          with
+          [
+              K=std::string
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(84): message : see reference to function template instantiation 'int structures::SortedSequenceTable<std::string,Municipality *>::indexOfKey(K,int,int,bool &)' being compiled
+          with
+          [
+              K=std::string
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(70): message : while compiling class template member function 'structures::Structure &structures::SortedSequenceTable<std::string,Municipality *>::assign(structures::Structure &)'
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(297,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(295): message : while compiling class template member function 'void structures::ArrayList<Filter<ObjectType> *>::enlarge(void)'
+          with
+          [
+              ObjectType=TerritorialUnit *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(208): message : see reference to function template instantiation 'void structures::ArrayList<Filter<ObjectType> *>::enlarge(void)' being compiled
+          with
+          [
+              ObjectType=TerritorialUnit *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(136): message : while compiling class template member function 'structures::ArrayList<Filter<ObjectType> *>::ArrayList(void)'
+          with
+          [
+              ObjectType=TerritorialUnit *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\composite_filter.h(10): message : see reference to function template instantiation 'structures::ArrayList<Filter<ObjectType> *>::ArrayList(void)' being compiled
+          with
+          [
+              ObjectType=TerritorialUnit *
+          ]
+  sort_by_education_fraction.cpp
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(84,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(82): message : while compiling class template member function 'void structures::SortedSequenceTable<std::string,Municipality *>::insert(const K &,const T &)'
+          with
+          [
+              K=std::string,
+              T=Municipality *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\district.h(19): message : see reference to class template instantiation 'structures::SortedSequenceTable<std::string,Municipality *>' being compiled
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(101,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(98): message : while compiling class template member function 'structures::TableItem<K,T> *structures::SortedSequenceTable<K,T>::findTableItem(const K &)'
+          with
+          [
+              K=std::string,
+              T=Municipality *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(212,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(206): message : while compiling class template member function 'void structures::ArrayList<Filter<ObjectType> *>::add(const T &)'
+          with
+          [
+              ObjectType=TerritorialUnit *,
+              T=Filter<TerritorialUnit *> *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\composite_filter.h(10): message : see reference to class template instantiation 'structures::ArrayList<Filter<ObjectType> *>' being compiled
+          with
+          [
+              ObjectType=TerritorialUnit *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(229,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(218): message : while compiling class template member function 'void structures::ArrayList<Filter<ObjectType> *>::insert(const T &,int)'
+          with
+          [
+              ObjectType=TerritorialUnit *,
+              T=Filter<TerritorialUnit *> *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(254,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(251): message : while compiling class template member function 'T structures::ArrayList<T>::removeAt(int)'
+          with
+          [
+              T=Filter<TerritorialUnit *> *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(242): message : see reference to function template instantiation 'T structures::ArrayList<T>::removeAt(int)' being compiled
+          with
+          [
+              T=Filter<TerritorialUnit *> *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(290,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(289): message : while compiling class template member function 'structures::Iterator<T> *structures::ArrayList<T>::getEndIterator(void)'
+          with
+          [
+              T=Filter<TerritorialUnit *> *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\quick_sort.h(35,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\quick_sort.h(34): message : while compiling class template member function 'void structures::QuickSort<std::string,TerritorialUnit *,double>::sort(structures::UnsortedSequenceTable<std::string,TerritorialUnit *> &,CriterionTerritorialUnit<double> *,unsigned int)'
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\sort_by_education_fraction.cpp(58): message : see reference to function template instantiation 'void structures::QuickSort<std::string,TerritorialUnit *,double>::sort(structures::UnsortedSequenceTable<std::string,TerritorialUnit *> &,CriterionTerritorialUnit<double> *,unsigned int)' being compiled
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\sort_by_education_fraction.cpp(57): message : see reference to class template instantiation 'structures::QuickSort<std::string,TerritorialUnit *,double>' being compiled
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\quick_sort.h(29,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\quick_sort.h(28): message : while compiling class template member function 'void structures::QuickSort<std::string,TerritorialUnit *,double>::sort(structures::UnsortedSequenceTable<std::string,TerritorialUnit *> &)'
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(112,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(108): message : while compiling class template member function 'int structures::SortedSequenceTable<std::string,Municipality *>::indexOfKey(K,int,int,bool &)'
+          with
+          [
+              K=std::string
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(84): message : see reference to function template instantiation 'int structures::SortedSequenceTable<std::string,Municipality *>::indexOfKey(K,int,int,bool &)' being compiled
+          with
+          [
+              K=std::string
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(70): message : while compiling class template member function 'structures::Structure &structures::SortedSequenceTable<std::string,Municipality *>::assign(structures::Structure &)'
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(297,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(295): message : while compiling class template member function 'void structures::ArrayList<Filter<ObjectType> *>::enlarge(void)'
+          with
+          [
+              ObjectType=TerritorialUnit *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(208): message : see reference to function template instantiation 'void structures::ArrayList<Filter<ObjectType> *>::enlarge(void)' being compiled
+          with
+          [
+              ObjectType=TerritorialUnit *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(136): message : while compiling class template member function 'structures::ArrayList<Filter<ObjectType> *>::ArrayList(void)'
+          with
+          [
+              ObjectType=TerritorialUnit *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\composite_filter.h(10): message : see reference to function template instantiation 'structures::ArrayList<Filter<ObjectType> *>::ArrayList(void)' being compiled
+          with
+          [
+              ObjectType=TerritorialUnit *
+          ]
+  sort_by_education_number.cpp
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(84,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(82): message : while compiling class template member function 'void structures::SortedSequenceTable<std::string,Municipality *>::insert(const K &,const T &)'
+          with
+          [
+              K=std::string,
+              T=Municipality *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\district.h(19): message : see reference to class template instantiation 'structures::SortedSequenceTable<std::string,Municipality *>' being compiled
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(101,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(98): message : while compiling class template member function 'structures::TableItem<K,T> *structures::SortedSequenceTable<K,T>::findTableItem(const K &)'
+          with
+          [
+              K=std::string,
+              T=Municipality *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(212,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(206): message : while compiling class template member function 'void structures::ArrayList<Filter<ObjectType> *>::add(const T &)'
+          with
+          [
+              ObjectType=TerritorialUnit *,
+              T=Filter<TerritorialUnit *> *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\composite_filter.h(10): message : see reference to class template instantiation 'structures::ArrayList<Filter<ObjectType> *>' being compiled
+          with
+          [
+              ObjectType=TerritorialUnit *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(229,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(218): message : while compiling class template member function 'void structures::ArrayList<Filter<ObjectType> *>::insert(const T &,int)'
+          with
+          [
+              ObjectType=TerritorialUnit *,
+              T=Filter<TerritorialUnit *> *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(254,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(251): message : while compiling class template member function 'T structures::ArrayList<T>::removeAt(int)'
+          with
+          [
+              T=Filter<TerritorialUnit *> *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(242): message : see reference to function template instantiation 'T structures::ArrayList<T>::removeAt(int)' being compiled
+          with
+          [
+              T=Filter<TerritorialUnit *> *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(290,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(289): message : while compiling class template member function 'structures::Iterator<T> *structures::ArrayList<T>::getEndIterator(void)'
+          with
+          [
+              T=Filter<TerritorialUnit *> *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\quick_sort.h(35,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\quick_sort.h(34): message : while compiling class template member function 'void structures::QuickSort<std::string,TerritorialUnit *,unsigned int>::sort(structures::UnsortedSequenceTable<std::string,TerritorialUnit *> &,CriterionTerritorialUnit<unsigned int> *,unsigned int)'
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\sort_by_education_number.cpp(57): message : see reference to function template instantiation 'void structures::QuickSort<std::string,TerritorialUnit *,unsigned int>::sort(structures::UnsortedSequenceTable<std::string,TerritorialUnit *> &,CriterionTerritorialUnit<unsigned int> *,unsigned int)' being compiled
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\sort_by_education_number.cpp(56): message : see reference to class template instantiation 'structures::QuickSort<std::string,TerritorialUnit *,unsigned int>' being compiled
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\quick_sort.h(29,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\quick_sort.h(28): message : while compiling class template member function 'void structures::QuickSort<std::string,TerritorialUnit *,unsigned int>::sort(structures::UnsortedSequenceTable<std::string,TerritorialUnit *> &)'
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(112,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(108): message : while compiling class template member function 'int structures::SortedSequenceTable<std::string,Municipality *>::indexOfKey(K,int,int,bool &)'
+          with
+          [
+              K=std::string
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(84): message : see reference to function template instantiation 'int structures::SortedSequenceTable<std::string,Municipality *>::indexOfKey(K,int,int,bool &)' being compiled
+          with
+          [
+              K=std::string
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(70): message : while compiling class template member function 'structures::Structure &structures::SortedSequenceTable<std::string,Municipality *>::assign(structures::Structure &)'
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(297,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(295): message : while compiling class template member function 'void structures::ArrayList<Filter<ObjectType> *>::enlarge(void)'
+          with
+          [
+              ObjectType=TerritorialUnit *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(208): message : see reference to function template instantiation 'void structures::ArrayList<Filter<ObjectType> *>::enlarge(void)' being compiled
+          with
+          [
+              ObjectType=TerritorialUnit *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(136): message : while compiling class template member function 'structures::ArrayList<Filter<ObjectType> *>::ArrayList(void)'
+          with
+          [
+              ObjectType=TerritorialUnit *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\composite_filter.h(10): message : see reference to function template instantiation 'structures::ArrayList<Filter<ObjectType> *>::ArrayList(void)' being compiled
+          with
+          [
+              ObjectType=TerritorialUnit *
+          ]
+  sort_by_name.cpp
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(84,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(82): message : while compiling class template member function 'void structures::SortedSequenceTable<std::string,Municipality *>::insert(const K &,const T &)'
+          with
+          [
+              K=std::string,
+              T=Municipality *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\district.h(19): message : see reference to class template instantiation 'structures::SortedSequenceTable<std::string,Municipality *>' being compiled
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(101,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(98): message : while compiling class template member function 'structures::TableItem<K,T> *structures::SortedSequenceTable<K,T>::findTableItem(const K &)'
+          with
+          [
+              K=std::string,
+              T=Municipality *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\quick_sort.h(35,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\quick_sort.h(34): message : while compiling class template member function 'void structures::QuickSort<std::string,TerritorialUnit *,std::string>::sort(structures::UnsortedSequenceTable<std::string,TerritorialUnit *> &,CriterionTerritorialUnit<std::string> *,unsigned int)'
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\sort_by_name.cpp(29): message : see reference to function template instantiation 'void structures::QuickSort<std::string,TerritorialUnit *,std::string>::sort(structures::UnsortedSequenceTable<std::string,TerritorialUnit *> &,CriterionTerritorialUnit<std::string> *,unsigned int)' being compiled
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\sort_by_name.cpp(28): message : see reference to class template instantiation 'structures::QuickSort<std::string,TerritorialUnit *,std::string>' being compiled
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\quick_sort.h(29,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\quick_sort.h(28): message : while compiling class template member function 'void structures::QuickSort<std::string,TerritorialUnit *,std::string>::sort(structures::UnsortedSequenceTable<std::string,TerritorialUnit *> &)'
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(112,1): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(108): message : while compiling class template member function 'int structures::SortedSequenceTable<std::string,Municipality *>::indexOfKey(K,int,int,bool &)'
+          with
+          [
+              K=std::string
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(84): message : see reference to function template instantiation 'int structures::SortedSequenceTable<std::string,Municipality *>::indexOfKey(K,int,int,bool &)' being compiled
+          with
+          [
+              K=std::string
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\sorted_sequence_table.h(70): message : while compiling class template member function 'structures::Structure &structures::SortedSequenceTable<std::string,Municipality *>::assign(structures::Structure &)'
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(212,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(206): message : while compiling class template member function 'void structures::ArrayList<structures::TableItem<K,T> *>::add(structures::TableItem<K,T> *const &)'
+          with
+          [
+              K=std::string,
+              T=TerritorialUnit *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\unsorted_sequence_table.h(48): message : see reference to class template instantiation 'structures::ArrayList<structures::TableItem<K,T> *>' being compiled
+          with
+          [
+              K=std::string,
+              T=TerritorialUnit *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\unsorted_sequence_table.h(47): message : while compiling class template member function 'structures::UnsortedSequenceTable<std::string,TerritorialUnit *>::UnsortedSequenceTable(void)'
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\sort_by_name.h(11): message : see reference to function template instantiation 'structures::UnsortedSequenceTable<std::string,TerritorialUnit *>::UnsortedSequenceTable(void)' being compiled
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\sort_by_name.h(11): message : see reference to class template instantiation 'structures::UnsortedSequenceTable<std::string,TerritorialUnit *>' being compiled
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(229,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(218): message : while compiling class template member function 'void structures::ArrayList<structures::TableItem<K,T> *>::insert(structures::TableItem<K,T> *const &,int)'
+          with
+          [
+              K=std::string,
+              T=TerritorialUnit *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(254,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(251): message : while compiling class template member function 'T structures::ArrayList<T>::removeAt(int)'
+          with
+          [
+              T=structures::TableItem<std::string,TerritorialUnit *> *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(242): message : see reference to function template instantiation 'T structures::ArrayList<T>::removeAt(int)' being compiled
+          with
+          [
+              T=structures::TableItem<std::string,TerritorialUnit *> *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(290,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(289): message : while compiling class template member function 'structures::Iterator<T> *structures::ArrayList<T>::getEndIterator(void)'
+          with
+          [
+              T=structures::TableItem<std::string,TerritorialUnit *> *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(297,1): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(295): message : while compiling class template member function 'void structures::ArrayList<structures::TableItem<K,T> *>::enlarge(void)'
+          with
+          [
+              K=std::string,
+              T=TerritorialUnit *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(208): message : see reference to function template instantiation 'void structures::ArrayList<structures::TableItem<K,T> *>::enlarge(void)' being compiled
+          with
+          [
+              K=std::string,
+              T=TerritorialUnit *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\list\array_list.h(136): message : while compiling class template member function 'structures::ArrayList<structures::TableItem<K,T> *>::ArrayList(void)'
+          with
+          [
+              K=std::string,
+              T=TerritorialUnit *
+          ]
+C:\Users\ADMIN\Desktop\AUSTW\structures\table\unsorted_sequence_table.h(48): message : see reference to function template instantiation 'structures::ArrayList<structures::TableItem<K,T> *>::ArrayList(void)' being compiled
+          with
+          [
+              K=std::string,
+              T=TerritorialUnit *
+          ]
+  Generating Code...
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\education.h(40): warning C4715: 'intToEducation': not all control paths return a value
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\education.h(40): warning C4715: 'intToEducation': not all control paths return a value
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\economic_age_group.h(23): warning C4715: 'intToEconomicAgeGroup': not all control paths return a value
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\gender.h(20): warning C4715: 'intToGender': not all control paths return a value
+C:\Users\ADMIN\Desktop\AUSTW\TermWork\TermWork\economic_age_group.h(23): warning C4715: 'intToEconomicAgeGroup': not all control paths return a value
+  TermWork.vcxproj -> C:\Users\ADMIN\Desktop\AUSTW\TermWork\x64\Debug\LevelFour.exe
