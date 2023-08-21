@@ -11,5 +11,4 @@
 <ul>
   <li>C++</li>
   <li>Visual Studio</li>
-  <li>Excel</li>
 </ul>
