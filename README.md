@@ -7,7 +7,7 @@
     <li>Filtrovanie a triedenie územných celkov podľa určitých kritérii</li>
   </ul>
 </p>
-<h2>Jazyky & frameworky & nástroje</h2>
+<h2>Jazyky & Frameworky & Nástroje</h2>
 <ul>
   <li>C++</li>
   <li>Visual Studio</li>
