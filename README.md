@@ -1,10 +1,10 @@
 <h1>AUS</h1>
 <h2>Description</h2>
 <p>
- <p>Náplňou práce bola postupná implementácia niekoľkých dátových štruktúr a následné otestovanie ich efektivity. Napokon boli použité tie najefektívnejšie v rámci kontextu zadania aplikácie</p>
+ <p>The content of the work was the gradual implementation of several data structures and the subsequent testing of their effectiveness.</p>
   <ul>
-    <li>Vyhľadávanie informácii o zadanej územnej jednotke</li>
-    <li>Filtrovanie a triedenie územných celkov podľa určitých kritérii</li>
+    <li>Searching information about given territorial unit</li>
+    <li>Filtering and sorting according to specific criterions</li>
   </ul>
 </p>
 <h2>Languages & Frameworks & Tools</h2>
